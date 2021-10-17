@@ -53,3 +53,4 @@ assert deleted_device_result is True
 
 # delete label
 deleted_label_result = client.delete_label(created_label.id)
+
