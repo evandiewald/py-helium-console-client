@@ -14,3 +14,6 @@ install:
 script: pytest # run tests
 after_success:
   - codecov # submit coverage
+notifications:
+  email:
+    -evandiewald@gmail.com
