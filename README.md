@@ -1,5 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/py-helium-console-client.svg)](https://badge.fury.io/py/py-helium-console-client)
-
+![example workflow](https://github.com/evandiewald/py-helium-console-client/actions/workflows/python-app.yml/badge.svg)
 
 # py-helium-console-client
 An __unofficial__ Python Client library for the [Helium Console API](https://docs.helium.com/use-the-network/console/api/). Please see the [API Specification](https://docs.helium.com/api/console/) for full details.
