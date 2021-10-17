@@ -3,9 +3,16 @@ from .api_calls import *
 
 class ConsoleClient:
     """HTTP Client for interacting with the Helium Console API.
-    See Console API docs (https://docs.helium.com/api/console/)"""
+
+    Helium Console exposes an HTTP API with endpoints for managing devices and labels.
+    Initialize the client with this ConsoleClient class.
+    See Console API docs (https://docs.helium.com/api/console/)
+
+    Attributes:
+        api_key: The API Key for your Helium Console account.
+    """
     def __init__(self, api_key: str):
-        """Authenticate the client with an API Key"""
+        """Initialize the client with an API Key"""
         self.api_key = api_key
 
     def get_devices(self):
