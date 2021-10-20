@@ -15,7 +15,7 @@ To use the Console API, you will first need to generate an API Key from the 'My 
 Some example commands are shown below. See [`examples.py`](examples.py) for full usage.
 
 ```python
-from py_helium_console_client.client import ConsoleClient
+from py_helium_console_client import ConsoleClient
 
 API_KEY = 'PASTE_API_KEY_HERE'
 
