@@ -7,7 +7,7 @@ The package can be installed via `pip`:
 `pip install py_helium_console_client`
 
 ## Usage
-To use the Console API, you will first need to generate an API Key from the 'My Account' tab. Use this key to initialize the `ConsoleClient` class. This interface exposes any of the methods in the specification (at the time of writing), which includes programmatic access for creating, querying, and deleting devices and labels. 
+To use the Console API, you will first need to generate an API Key from the 'My Account' tab in the [Helium Console](https://console.helium.com/profile) web interface. Use this key to initialize the `ConsoleClient` class. This wrapper exposes any of the methods in the specification (at the time of writing), which includes programmatic access for creating, querying, and deleting devices and labels. 
 
 Some example commands are shown below. See [`examples.py`](examples.py) for full usage.
 

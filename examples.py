@@ -1,4 +1,4 @@
-from py_helium_console_client.client import ConsoleClient
+from py_helium_console_client import ConsoleClient
 
 ## See full documentation for the Console API: https://docs.helium.com/api/console/
 API_KEY = 'PASTE_API_KEY_HERE'

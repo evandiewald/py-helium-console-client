@@ -1,5 +1,4 @@
-from py_helium_console_client import __version__
-from py_helium_console_client.client import ConsoleClient
+from py_helium_console_client import __version__, ConsoleClient
 import os
 
 API_KEY = os.environ['CONSOLE_API_KEY']
