@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py-helium-console-client"
-version = "0.1.0"
+version = "0.1.1"
 description = "An unofficial Python Client library for the Helium Console API."
 authors = ["Evan Diewald <evandiewald@gmail.com>"]
 keywords = ["helium", "console"]
